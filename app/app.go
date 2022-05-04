@@ -34,12 +34,6 @@ func Gerar() *cli.App {
 			Flags:  flags,
 			Action: buscarCNAME,
 		},
-		{
-			Name:   "",
-			Usage:  "",
-			Flags:  flags,
-			Action: ab,
-		},
 	}
 	return app
 }
